@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+}
+
+p {
+  font-size: 1.15em;
+  text-align: center;
+  color: white;
+  white-space: normal;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+body header {
+  background-color: #12343b;
+  font-size: 1.175rem;
+}
+
+body header nav {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+  width: 100%;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  width: 100%;
+}
+
+body header nav ul li {
+  font-family: "Playfair Display", serif;
+}
+
+body header nav ul li:hover {
+  border-bottom-color: #e1b382;
+  border-bottom-style: solid;
+}
+
+body header nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.175rem;
+  font-family: "Poppins", "sans-serif";
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #c89666;
+}
+
+body main h1, body main article, body main p {
+  color: black;
+}
+
+body main h1 {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body main article {
+  margin: auto;
+  width: 55%;
+  background-color: #e1b382;
+}
+
+body main #presentation {
+  margin: auto;
+  margin-top: 2.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main #presentation p {
+  font-size: 1.2em;
+}
+
+body main #presentation_projets {
+  margin-bottom: 2.5rem;
+}
+
+body main #projectmain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main #crypto_watcher {
+  margin-top: 2.5rem;
+}
+
+body main #lol_bot {
+  margin-bottom: 2.5rem;
+}
+
+body main #preview {
+  margin-bottom: 2.5rem;
+}
+
+body main .project {
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+body main h3, body main img {
+  margin: 15px;
+}
+
+body main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main article p {
+  padding: 1.5rem;
+}
+
+body main article span {
+  margin: 1.5rem;
+  margin-bottom: 0;
+  font-size: 1.1em;
+}
+
+body main article img {
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
+
+body main video {
+  margin: auto;
+  width: 66%;
+  margin-bottom: 20px;
+}
+
+body main button {
+  width: 150px;
+  height: 50px;
+  background-color: #2d545e;
+  position: relative;
+  margin: auto;
+  border: none;
+}
+
+body main button a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+}
+
+body main button a:hover {
+  color: #e1b382;
+}
+
+body footer {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  font-family: "Poppins", "sans-serif";
+  background-color: #12343b;
+  color: #fff;
+}
+
+body footer p {
+  font-size: 1.175rem;
+}
+/*# sourceMappingURL=styles.css.map */

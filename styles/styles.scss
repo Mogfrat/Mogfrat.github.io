@@ -1,0 +1,158 @@
+@import "fontsandcolor.scss";
+
+*{
+    margin: 0;
+}
+
+p{
+    font-size: 1.15em;
+    text-align: center;
+    color: white;
+    white-space: normal;
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+    header{
+        background-color: $bleunuit2;
+        font-size: $fontsize;
+        nav{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 10vh;
+            width: 100%;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                width: 100%;
+                li{
+                    font-family: $fontstyletitle;
+                }
+        
+                li:hover {
+                    border-bottom-color: $sablecolor ;
+                    border-bottom-style: solid;
+                }
+                a{
+                    color: $secondcolor;
+                    text-decoration: none;
+                    font-size: $fontsize;
+                    font-family: $fontstyletxt;
+                }
+            }
+        }
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: $sablecolor2;
+        h1,article,p{
+            color : black;
+        }
+        h1{
+            margin-top: 3.5rem;
+            margin-bottom: 1.5rem;
+        }
+        article{
+            margin: auto;
+            width: 55%;
+            background-color: $sablecolor;
+        }
+        #presentation{
+            margin: auto;
+            margin-top: 2.5rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items : center;
+            p{
+                font-size: 1.2em;
+            }
+        }
+        #presentation_projets{
+            margin-bottom: 2.5rem;
+        }
+        #projectmain{
+            display: flex;
+            flex-direction: column;
+        }
+        #crypto_watcher{
+            margin-top: 2.5rem;
+        }
+        #lol_bot{
+            margin-bottom: 2.5rem;
+        }
+        #preview{
+            margin-bottom: 2.5rem;
+        }
+        .project{
+            margin-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+        
+        h3,img{
+            margin: 15px;
+        }
+        article{
+            display: flex;
+            flex-direction: column;
+            p{
+                padding: 1.5rem;
+            }
+            span{
+                margin: 1.5rem;
+                margin-bottom: 0;
+                font-size: 1.1em;
+            }
+            img{
+                margin: auto;
+                margin-top: 2.5rem;
+                margin-bottom: 2.5rem;
+                width: 80%;
+            }
+        }
+        video{
+            margin: auto;
+            width: 66%;
+            margin-bottom: 20px;
+        }
+        button{
+            width: 150px;
+            height: 50px;
+            background-color: $bleunuit;
+            position: relative;
+            margin: auto;
+            border: none;
+            a{
+                text-decoration: none;
+                color: $secondcolor;
+                margin: auto;
+            }
+            a:hover{
+                color:$sablecolor;
+            }
+            
+        }
+    }
+    footer{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        font-family: $fontstyletxt;
+        background-color: $bleunuit2;
+        color: $secondcolor;
+        p{
+            font-size: $fontsize;
+        }
+    }
+}
