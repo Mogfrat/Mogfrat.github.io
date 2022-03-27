@@ -1,0 +1,20 @@
+// On importe 2 polices qui vont servir pour les corps de textes et les titres
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+// variables lié aux textes :
+$fontstyletxt : 'Poppins', 'sans-serif';
+$fontstyletitle: 'Playfair Display', serif;
+$fontsize: 1.175rem;
+$fontsizeada: 3.125rem;
+
+
+// Variables lié aux couleurs
+$maincolor : grey;
+$sablecolor : #e1b382;
+$sablecolor2 : #c89666;
+$bleunuit: #2d545e;
+$bleunuit2: #12343b;
+$secondcolor : #fff;
+$bordercolor : #000;
+$nbnegcolor : red;
