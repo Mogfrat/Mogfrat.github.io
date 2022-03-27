@@ -180,6 +180,10 @@ body main article img {
   width: 80%;
 }
 
+body main article .description {
+  white-space: pre-line;
+}
+
 body main video {
   margin: auto;
   width: 66%;
