@@ -3,66 +3,103 @@
 <head>
     <meta charset="utf-8">
     <title>Mes projets</title>
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="https://github.com/Mogfrat" target="blank" rel="noopener noreferrer">Mon github</a></li>
-                <li><a href="https://trello.com/b/cnqUX73T/lol" target="blank" rel="noopener noreferrer">Mon trello</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="projectmain">
-        <article class="project" id="crypto_watcher">
-            <h1>Crypto Watcher :</h1>
-            <p class="description">
-                Il permet entre autre de voir l'état de ses workers lors du minage, permet de connaitre
-                les stats des pools, de connaître la valeur "en temps réel" des cryptomonnaies et
-                de connaitre les prix du gas pour les transactions.
-            </p>
-            <h3>API utilisées :</h3>
-            <span class="api">Ethermine, Nanopool, Flexpool, Messari, Polygonscan, Etherscan et Zapper.</span>
-            <video width="450" height="350" muted controls>
-                <source src="/images/Crypto-watcher.mp4" type="video/mp4">
-            </video>
-            <button type="button">
-                <a class="btn-style" href="https://discord.com/api/oauth2/authorize?client_id=818961019136114699&permissions=137439397952&scope=bot" >Inviter le bot.</a>
-            </button>
+    <nav>
+        <a href="index.html" class="logo">Mogfrat</a>
+        <ul class="nav-links">
+            <li><a class="nav-link" href="myproject.html">Mes projets</a></li>
+            <li><a class="nav-link" href="https://github.com/Mogfrat" target="_blank">Mon Github</a></li>
+            <li><a class="nav-link" href="https://trello.com/b/cnqUX73T/lol" target="_blank">Mon Trello</a></li>
+        </ul>
+    </nav>
 
-        </article>
-        <article class="project" id="wibot">
-            <h1>Wibot :</h1>
-            <p class="description">
-                Il permet de d'envoyer des images autant SFW que NSFW de waifu. Ainsi que de rechercher après les animés à partir d'une photo et/ou gif. 
-            </p>
-            <h3>API utilisées :</h3>
-            <span class="api">Animechan, Anime fact de herokuapp, Waifu.pics, Waifu.im et Trace.moe.</span>
-            <video width="450" height="350" muted controls>
-                <source src="/images/Wibot.mp4" type="video/mp4">
-            </video>
-            <button type="button">
-                <a class="btn-style" href="https://discord.com/api/oauth2/authorize?client_id=931983918222180412&permissions=137439397952&scope=bot" >Inviter le bot.</a>
-            </button>
-        </article>
-        <article class="project" id="lol_bot">
-            <h1>Lol bot :</h1>
-            <p class="description">
-                Il permet de connaitre le rang de maitrise de chaque personnage, les stats des parties précédentes, ainsi qu'actuelle.
-                La rotation des champions. (En cours de développement.) 
-            </p>
-            <h3>API utilisée :</h3>
-            <span class="api">Riot Games.</span>
-            <video width="450" height="350" muted controls>
-                <source src="/images/lol_bot.mp4 " type="video/mp4">
-            </video>
-            <button type="button">
-                <a class="btn-style" href="https://discord.com/api/oauth2/authorize?client_id=937699620828643348&permissions=137439397952&scope=bot" >Inviter le bot.</a>
-            </button>
-        </article>
+    <main>
+        <header class="banner">
+            <h1>Mes projets</h1>
+        </header>
+
+        <section>
+            <article>
+                <div class="description">
+                    <h3>Crypto Watcher</h3>
+                    <p>
+                        Il permet, entre autres, de voir l'état de ses workers lors du minage, permet de connaitre
+                        les stats des pools, de connaître la valeur "en temps réel" des cryptomonnaies et
+                        de connaitre les prix du gas pour les transactions.
+                    </p>
+
+                    <p>APIs utilisées :</p>
+                    <ul class="apis">
+                        <li>Ethermine</li>
+                        <li>Nanopool</li>
+                        <li>Flexpool</li>
+                        <li>Messari</li>
+                        <li>Polygonscan</li>
+                        <li>Etherscan</li>
+                        <li>Zapper</li>
+                    </ul>
+
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=818961019136114699&permissions=137439397952&scope=bot" target="_blank" class="link-btn">Inviter le bot</a>
+                </div>
+
+                <div class="capture">
+                    <video width="450" height="350" muted controls>
+                        <source src="/images/Crypto-watcher.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </article>
+
+            <article>
+                <div class="description">
+                    <h3>Wibot</h3>
+                    <p>Il permet de d'envoyer des images autant SFW que NSFW de waifu. Ainsi que de rechercher après les animés à partir d'une photo et/ou gif.</p>
+
+                    <p>APIs utilisées :</p>
+                    <ul class="apis">
+                        <li>Animechan</li>
+                        <li>Anime fact de Herokuapp</li>
+                        <li>Waifu.pics</li>
+                        <li>Waifu.im</li>
+                        <li>Trace.moe</li>
+                    </ul>
+
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=931983918222180412&permissions=137439397952&scope=bot" target="_blank" class="link-btn">Inviter le bot</a>
+                </div>
+
+                <div class="capture">
+                    <video width="450" height="350" muted controls>
+                        <source src="/images/Wibot.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </article>
+
+            <article>
+                <div class="description">
+                    <h3>Lolbot</h3>
+                    <p>
+                        Il permet de connaitre le rang de maitrise de chaque personnage, les stats des parties précédentes et actuelles.
+                        La rotation des champions. (En cours de développement)
+                    </p>
+
+                    <p>APIs utilisées :</p>
+                    <ul class="apis">
+                        <li>Riot Games</li>
+                    </ul>
+
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=937699620828643348&permissions=137439397952&scope=bot" target="_blank" class="link-btn">Inviter le bot</a>
+                </div>
+
+                <div class="capture">
+                    <video width="450" height="350" muted controls>
+                        <source src="/images/lol_bot.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </article>
+        </section>
     </main>
+
     <footer>
         <p>&copy;2022 Mogfrat. Tous droits réservés.</p>
     </footer>
