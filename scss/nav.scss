@@ -1,0 +1,32 @@
+nav {
+    width: 100%;
+    min-height: 10vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: colors.$sable;
+    text-decoration: none;
+}
+
+.nav-links {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.nav-link:hover {
+    color: colors.$sable;
+}

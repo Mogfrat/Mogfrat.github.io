@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Zen Kaku Gothic Antique";
+    src: url("../fonts/ZenKakuGothicAntique.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Kaku Gothic Antique';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.banner {
+    padding: 4rem;
+    background-color: colors.$sable;
+    color: #fff;
+
+    h1 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+}
+
+.link-btn {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 2px solid colors.$sable;
+    color: colors.$sable;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.link-btn:hover {
+    background-color: colors.$sable;
+    color: #fff;
+}
+
+footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: colors.$sable;
+    color: #fff;
+}

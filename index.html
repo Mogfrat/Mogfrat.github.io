@@ -2,40 +2,66 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Acceuil</title>
-    <link rel="stylesheet" href="/styles/styles.css"/>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="myproject.html">Mes projets</a></li>
-                <li><a href="https://github.com/Mogfrat" target="blank" rel="noopener noreferrer">Mon github</a></li>
-                <li><a href="https://trello.com/b/cnqUX73T/lol" target="blank" rel="noopener noreferrer">Mon trello</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <a href="index.html" class="logo">Mogfrat</a>
+        <ul class="nav-links">
+            <li><a class="nav-link" href="myproject.html">Mes projets</a></li>
+            <li><a class="nav-link" href="https://github.com/Mogfrat" target="_blank">Mon Github</a></li>
+            <li><a class="nav-link" href="https://trello.com/b/cnqUX73T/lol" target="_blank">Mon Trello</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <article id="presentation">
+        <header class="banner">
             <h1>Qui suis-je ?</h1>
-            <p class="description">
+            <p>
                 Un passionné d'informatique qui développe à ses heures perdues
-                (et quand il en a envie). Je m'amuse avec les api et python pour en faire des bots discord
+                (et quand il en a envie). Je m'amuse avec les API et le langage Python pour en faire des bots Discord.
             </p>
-        </article>
-        <article id="preview">
-            <h1>Appercu de mes projets :</h1>
-            <h3>Crypto Watcher :</h3>
-            <span>Un bot discord utilisant plusieurs api permettant d'afficher différentes informations sur les cryptos, etc.</span>
-            <img src="../images/miner.png" alt="photo montrant une commande du bot." width="450" height="350">
-            <h3>Wibot :</h3>
-            <span>Un bot discord permettant de rechercher le nom d'animé à partir de scène précise, etc.</span>
-            <img src="../images/animebot.png" alt="photo montrant une commande du bot." width="450" height="350">
-            <h3>Lolbot :</h3>
-            <span>Un bot discord permettant d'obtenir différentes informations liées aux contenus de League of legends.</span>
-            <img src="../images/lolbot.png" alt="photo montrant une commande du bot." width="450" height="350">
-        </article>
+        </header>
+
+        <section>
+            <h2>Aperçu de mes projets</h2>
+
+            <article>
+                <div class="description">
+                    <h3>Cypto Watcher</h3>
+                    <p>Un bot Discord utilisant plusieurs APIs permettant d'afficher différentes informations sur les cryptos, etc.</p>
+                </div>
+
+                <div class="capture">
+                    <img src="../images/miner.png" alt="Capture d'écran montrant une commande du bot">
+                </div>
+            </article>
+
+            <article>
+                <div class="description">
+                    <h3>Wibot</h3>
+                    <p>Un bot discord permettant de rechercher le nom d'animé à partir de scène précise, etc.</p>
+                </div>
+
+                <div class="capture">
+                    <img src="../images/animebot.png" alt="Capture d'écran montrant une commande du bot">
+                </div>
+            </article>
+
+            <article>
+                <div class="description">
+                    <h3>Lolbot</h3>
+                    <p>Un bot discord permettant d'obtenir différentes informations liées aux contenus de League of legends.</p>
+                </div>
+
+                <div class="capture">
+                    <img src="../images/lolbot.png" alt="Capture d'écran montrant une commande du bot">
+                </div>
+            </article>
+        </section>
     </main>
+
     <footer>
         <p>&copy;2022 Mogfrat. Tous droits réservés.</p>
     </footer>
