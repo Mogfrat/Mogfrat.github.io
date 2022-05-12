@@ -56,6 +56,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+nav i {
+  font-size: 1.5em;
+}
 
 .logo {
   font-size: 1.5em;
@@ -81,6 +84,16 @@ nav {
   color: #e1b382;
 }
 
+@media screen and (max-width: 900px) {
+  .nav-links {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav-links {
+    width: 75%;
+  }
+}
 section {
   margin: 1rem;
 }
@@ -112,8 +125,26 @@ section article .capture {
   align-items: center;
 }
 section article .capture img, section article .capture video {
-  width: 500px;
+  width: 100%;
+  height: auto;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+  section article {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .capture {
+    margin-top: 2rem;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
