@@ -34,3 +34,15 @@ nav {
 .nav-link:hover {
     color: colors.$sable;
 }
+
+@media screen and (max-width: 900px) {
+    .nav-links {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav-links {
+        width: 75%;
+    }
+}
