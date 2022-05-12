@@ -56,6 +56,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+nav i {
+  font-size: 1.5em;
+}
 
 .logo {
   font-size: 1.5em;
